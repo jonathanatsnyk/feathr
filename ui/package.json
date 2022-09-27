@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@azure/msal-browser": "^2.24.0",
-    "@azure/msal-react": "^1.4.0",
+    "@azure/msal-react": "^1.4.5",
     "antd": "^4.20.2",
     "axios": "^0.27.2",
     "dagre": "^0.8.5",
