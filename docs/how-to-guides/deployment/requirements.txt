@@ -2,3 +2,4 @@ pip
 git+https://github.com/linkedin/feathr.git#subdirectory=feathr_project
 pandavro
 aiohttp
+numpy>=1.21.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
