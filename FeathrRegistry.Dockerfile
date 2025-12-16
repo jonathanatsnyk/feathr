@@ -8,7 +8,7 @@ RUN echo 'REACT_APP_API_ENDPOINT=' >> .env.production
 RUN npm install && npm run build
 
 # Stage 2: build backend and start nginx to as reserved proxy for both ui and backend
-FROM python:3.9
+FROM python:3.13.11
 
 ## Install dependencies
 RUN apt-get update -y && apt-get install -y nginx
