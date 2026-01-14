@@ -1,5 +1,5 @@
 redis
-azure-core<=1.22.1
+azure-core<=1.38.0
 azure-storage-file-datalake>=12.5.0
 azure-synapse-spark
 azure-identity
@@ -14,4 +14,4 @@ google>=3.0.0
 google-api-python-client>=2.41.0
 azure-keyvault-secrets
 confluent-kafka
-azure-core<=1.22.1
+azure-core<=1.38.0
